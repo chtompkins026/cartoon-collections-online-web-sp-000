@@ -8,8 +8,8 @@ def summon_captain_planet(array)
   array.map { |planet| "#{planet.capitalize}!"}
 end
 
-def long_planeteer_calls
-  
+def long_planeteer_calls(array)
+  %w{ant bear cat}.any? {|word| word.length >= 3}
 end
 
 def find_the_cheese# code an argument here
