@@ -15,7 +15,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.each do |potential| 
-    return potential if cheese_types.inlucde?(potential)
+    return potential if cheese_types.include?(potential)
   end 
   return nil
 end
